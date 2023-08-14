@@ -12,7 +12,8 @@ table{
 h1{
     text-align: top;
     height: 10vh;
-    font-size: 80px;
+    font-size: 60px;
+    
     }
 
 h2{ 
@@ -39,7 +40,7 @@ h2{
     padding: 0px 5px 0px 5px;
     border: 3px solid black;
     position: absolute;
-    left: 1150px;  
+    left: 1050px;  
     margin-top: -370px;
     }   
 
@@ -49,7 +50,7 @@ h2{
     padding: 0px 5px 0px 5px;
     border: 3px solid black;
     position: absolute;
-    left: 1250px;
+    left: 1150px;
     margin-top: -370px;
     }
 
@@ -59,7 +60,7 @@ h2{
     padding: 0px 5px 0px 5px;
     border: 3px solid black;
     position: absolute;
-    left: 1450px; 
+    left: 1350px; 
     margin-top: -370px;
     }
 
@@ -69,7 +70,7 @@ h2{
     padding: 0px 5px 0px 5px;
     border: 3px solid black;
     position: absolute;
-    left: 1570px; 
+    left: 1470px; 
     margin-top: -370px;
     }
 
@@ -79,9 +80,19 @@ h2{
     padding: 0px 5px 0px 5px;
     border: 3px solid black;
     position: absolute;
-    left: 1730px; 
+    left: 1625px; 
     margin-top: -370px;
     }
+
+.seis{
+    font-size: 30px;
+    background-color: blue;
+    padding: 0px 5px 0px 5px;
+    border: 3px solid black;
+    position: absolute;
+    left: 1720px; 
+    margin-top: -370px; 
+}
 
 .logo{
     background-size: cover;
@@ -91,39 +102,17 @@ h2{
     padding-top: 40px;
     }
 
-.con,.primer1{
+.con,.primer1, .primer2, .primer3{
     font-size: 25px;
     padding-left: 200px;
     padding-top: 50px;
     }
  
- .con1,.segundo1{
+ .con1,.segundo1, .segundo2, .segundo3{
     font-size: 25px;
     padding-left: 200px;
     }
  
- .primer2{
-    font-size: 25px;
-    padding-left: 200px;
-    padding-top: 50px;
-    }
- 
- .segundo2{
-    font-size: 25px;
-    padding-left: 200px;
-    }
- 
- .primer3{
-    font-size: 25px;
-    padding-left: 200px;
-    padding-top: 50px;
-    }
- 
- .segundo3{
-    font-size: 30px;
-    padding-left: 200px;
-    }
-
 .september{
     width: 12rem;
     }
@@ -170,8 +159,13 @@ th,td{
 .punto{
     margin-left: 2rem;
 }    
-
+.parrafo, .parrafo1{
+    font-size: 25px;
+    padding-left: 620px;
+}
 ol{
    font-size: larger;
     }
-
+.registro{
+    font-size: 200%;
+}
